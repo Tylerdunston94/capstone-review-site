@@ -7,3 +7,4 @@ const UserSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('User', UserSchema); // Export the User model created from the schema
+//Schema allows you to interact with data, such as updating passwords, usernames , & emails 

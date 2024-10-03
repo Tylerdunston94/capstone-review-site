@@ -19,7 +19,7 @@ router.get('/products', async (req, res) => {
   res.json(products);
 });
 
-// Create a review
+//  a review
 router.post()'/reviews', async (req, res) => {
   const { productId, userId, rating, reviewText } = req.body;
   const newReview = new Review()}
